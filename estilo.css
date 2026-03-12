@@ -1,0 +1,37 @@
+
+
+
+.barra-lateral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
+.divisao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.barra-superior{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.logo{
+    width: 80px;
+    margin: 30;
+}
+
+.material-icons{
+    color: rgb(13, 13, 13);
+}
+
+.inferior{
+    flex-wrap: nowrap;
+}
