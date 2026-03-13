@@ -2,12 +2,14 @@
 .divisao{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .barra-lateral{
     flex: 1;
     align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .icone-logo{
@@ -24,7 +26,10 @@
     gap: 30px;
 }
 
-
+.configuracoes {
+    display: flex;
+    justify-content: center;
+}
     
 .barra-superior{
     display: flex;
