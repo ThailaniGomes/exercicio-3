@@ -1,43 +1,46 @@
 
-.barra-lateral{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-
-}
-
 .divisao{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+.barra-lateral{
+    flex: 1;
+    align-content: center;
+}
+
+.icone-logo{
+    align-items: flex-start;
+    width: 90px;
+    margin: 30;
+  
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    gap: 30px;
+}
+
+
+    
 .barra-superior{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
-    
 }
 
 .sugestoes{
+    font-size: 20px;
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin-right: 10;
-    justify-content:space-between;
-    
+    justify-content:space-between; 
 }
 
-.logo{
-    width: 80px;
-    margin: 30;
-}
-
-.material-icons{
-    color: rgb(13, 13, 13);
-}
 
 .inferior{
     list-style: none;
@@ -52,11 +55,10 @@
 }
 
 input{
+    font-size: 18px;
     background-color: lightgray;
     border: none;
     border-radius: 3px;
     width: 800px;
 	padding: 10px;
-
-    
 }
